@@ -3,13 +3,13 @@
    ============================================================ */
 
 :root {
-  --ink: #0a0c10;          /* hero / header / footer background */
-  --ink-2: #14171e;        /* raised surfaces on dark */
-  --line-dark: #262a33;
+  --ink: #0b1d3a;          /* deep navy: hero / header / footer background */
+  --ink-2: #13284d;        /* raised surfaces on dark */
+  --line-dark: #24395f;
   --text: #1b1f27;
   --text-muted: #5a6270;
   --text-on-dark: #f3f5f8;
-  --text-on-dark-muted: #a3abb9;
+  --text-on-dark-muted: #aebbd3;
   --bg: #ffffff;
   --bg-soft: #f4f6f9;
   --line: #e3e7ee;
@@ -69,7 +69,7 @@ p { margin: 0 0 1em; }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(10, 12, 16, 0.92);
+  background: rgba(11, 29, 58, 0.94);
   backdrop-filter: saturate(160%) blur(10px);
   -webkit-backdrop-filter: saturate(160%) blur(10px);
   border-bottom: 1px solid var(--line-dark);
